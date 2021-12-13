@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+mat-card{
+    padding: 2.3rem;
+    width: 25rem;
+}
+mat-card-title, mat-card-content ,mat-card-actions{
+    text-align: center;
+    padding: 6px;
+}

@@ -1,0 +1,20 @@
+<!-- HEADER NAVBAR GOES HERE -->
+<mat-sidenav-container>
+    <mat-sidenav #sidenav role="navigation" color="primary">
+        <app-sidenav-list (closeSidenav)="sidenav.close()"></app-sidenav-list>
+    </mat-sidenav>
+
+<!-- SIDE BAR GOES HERE -->
+    <mat-sidenav-content> 
+        <app-header (sidenavToggle)="sidenav.toggle()"></app-header>
+            <main>
+                <router-outlet></router-outlet>
+            </main>
+    </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+
+
+
+

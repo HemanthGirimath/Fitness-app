@@ -1,0 +1,16 @@
+.signup-form {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding-top: 3rem;
+}
+
+mat-form-field {
+  width: 15rem;
+  padding: 10px;
+}
+
+.form-btn {
+  margin: 2rem;
+}
+/*# sourceMappingURL=signup.component.css.map */

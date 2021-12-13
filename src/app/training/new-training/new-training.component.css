@@ -1,0 +1,23 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+}
+
+mat-card {
+  padding: 2.3rem;
+  width: 25rem;
+}
+
+mat-card-title, mat-card-content, mat-card-actions {
+  text-align: center;
+  padding: 6px;
+}
+/*# sourceMappingURL=new-training.component.css.map */

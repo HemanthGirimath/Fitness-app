@@ -1,0 +1,24 @@
+mat-nav-list {
+  width: 20rem;
+  background-color: #673ab7;
+  height: 100%;
+}
+
+mat-nav-list a, mat-icon {
+  color: white;
+  font-size: 1.4rem;
+}
+
+mat-nav-list a:hover {
+  color: lightgray;
+}
+
+mat-list-item button {
+  color: white;
+  font-size: 1.4rem;
+}
+
+mat-list-item button:hover {
+  color: lightgray;
+}
+/*# sourceMappingURL=sidenav-list.component.css.map */

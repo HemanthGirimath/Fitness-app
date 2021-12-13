@@ -1,0 +1,51 @@
+
+
+// desktop navbar design goes here
+
+
+
+mat-icon{
+    color: white;
+}
+mat-icon:hover{
+    color: lightgray;
+}
+
+.logo, a,span{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.navbar{
+    
+    &__item{
+        text-decoration: none;
+        display: flex;
+        width: 80rem;
+        justify-content: flex-end;
+    }
+    &__item li{
+        list-style: none;
+        width: 6rem;
+        justify-content: space-between;
+    
+    &__item li:hover{
+        color: lightgray;
+    }
+        
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            color: lightgray;
+        }
+    }
+    
+}
+a:hover{
+    color: lightgray;
+}

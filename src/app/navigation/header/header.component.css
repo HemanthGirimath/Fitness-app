@@ -1,0 +1,54 @@
+mat-sidenav {
+  width: 15rem;
+  background-color: #673ab7;
+}
+
+mat-icon {
+  color: white;
+}
+
+mat-icon:hover {
+  color: lightgray;
+}
+
+.logo, a, span {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__item {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar__item li {
+  list-style: none;
+  width: 6rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__item li__item li:hover {
+  color: lightgray;
+}
+
+.navbar__item li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__item li a:hover {
+  color: lightgray;
+}
+
+a:hover {
+  color: lightgray;
+}
+/*# sourceMappingURL=header.component.css.map */

@@ -1,0 +1,35 @@
+<section class="container">
+    <mat-card>
+        <mat-card-title>Time to Start a Workout!</mat-card-title>
+
+        <mat-card-content>
+            <mat-form-field >
+            <mat-label>Type of Training</mat-label>
+            <mat-select>
+                <mat-option value="cradio">
+                    cradio
+                </mat-option>
+                <mat-option value="Hit">
+                    Hit
+                </mat-option>
+                <mat-option value="Full-body Workout">
+                    Full-body Workout
+                </mat-option>
+            </mat-select>
+            </mat-form-field>
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button 
+                mat-raised-button 
+                color="primary"
+                type="submit" 
+                color="primary" 
+                (click)="onStartTraining()">
+             Start
+            </button>
+        </mat-card-actions>
+    </mat-card>    
+</section>
+
+
