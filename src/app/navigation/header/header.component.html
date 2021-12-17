@@ -11,14 +11,17 @@
     </div>
     <div class="navbar">
         <div class="navbar__item">
-            <li>
+            <li *ngIf="!isAuth">
                 <a routerLink="/signup">Signup</a>
             </li>
-            <li>
+            <li *ngIf="!isAuth">
                 <a routerLink="/login">Login</a>
             </li>
-            <li>
+            <li *ngIf="isAuth">
                 <a routerLink="/training">Training</a> 
+            </li>
+            <li *ngIf="isAuth">
+                <a (click)="onLogout()"> Logout </a>
             </li>
         </div>
     </div>

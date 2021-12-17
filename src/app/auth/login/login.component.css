@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=login.component.css.map */
+mat-form-field {
+  width: 15rem;
+  padding: 10px;
+}
+
+.reactive-form {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=login.component.css.map */
